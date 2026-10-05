@@ -52,30 +52,35 @@ The solution includes:
 * Automated deployment of a web application using Ansible  
 * Safe re-runs using Ansible’s idempotent design
 <br>
-The focus of this project is on configuration management fundamentals, not advanced orchestration or CI/CD pipelines.  
----
+The focus of this project is on configuration management fundamentals, not advanced orchestration or CI/CD pipelines.
+<br>
 
+--- 
 ## ✨ Architectural Diagram
 
-![Architectural Diagram](https://github.com/Botskiss/terraform-aws-iac/blob/main/twl-aws-iac-diagram.png)
+![Architectural Diagram](https://github.com/Botskiss/Configuration-Management-with-Ansible-on-AWS/blob/main/TWL-Ansible-AWS-DIagram.png)
 
 ---
 ## Steps Performed
-1. 
+1. repare the local environment for Ansible.  
+2. Provision EC2 infrastructure using Terraform.  
+3. Understand Ansible core concepts (just enough).  
+4. Configure EC2 instances using Ansible playbooks.  
+5. Deploy a web application using Ansible.  
+6. Re-run playbooks to observe idempotency.  
+
 ---
 ## Final Result
-At the end of the project, I have:  
-* Built a complete AWS environment without using the AWS Console
-* Stored Terraform state securely using S3 and DynamoDB
-* Organized infrastructure using reusable modules
-* Deployed a working web application
-* Cleaned up everything safely using Terraform
-  <br>
-  <br>
-This project reflects how real DevOps teams build, manage, and maintain cloud infrastructure at scale.
+At the end of this project, I have:
+
+* Multiple EC2 instances configured consistently using Ansible.  
+* A web application deployed without manual intervention.  
+* Hands-on experience with real configuration management workflows.
+<br>
+This project prepares you for real AWS DevOps roles where manual configuration is not an option.
 
 <br> 
 <br>
 
-![Final Result](https://github.com/Botskiss/terraform-aws-iac/blob/main/terraform-aws-iac-final.png)
+![Final Result](https://github.com/Botskiss/Configuration-Management-with-Ansible-on-AWS/blob/main/TWL-Ansible-AWS-Final.png)
 
