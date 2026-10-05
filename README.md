@@ -27,16 +27,17 @@ To solve this, the team decides to adopt configuration management using Ansible,
 
 ---
 ## Role as a DevOps Engineer
-My role is to design and build AWS infrastructure entirely using Terraform, following real-world DevOps best practices.  
+My role is to introduce automated configuration management into the company’s AWS environment.
 
-I am responsible for:  
-* Writing Terraform code to provision AWS resources  
-* Managing infrastructure state safely using a remote backend  
-* Building infrastructure incrementally instead of all at once  
-* Refactoring Terraform code into reusable modules  
-*  Understanding how Terraform tracks, plans, and applies changes  
+You are responsible for:
+
+* Provisioning EC2 infrastructure using Terraform
+* Managing multiple servers from a single control node
+* Applying configuration consistently using Ansible
+* Deploying applications without manual SSH work
+* Ensuring configurations can be safely re-run
 <br>
-This mirrors how DevOps engineers manage infrastructure in production teams.
+This mirrors how DevOps engineers replace manual server setup with repeatable, scalable automation in real teams.
 
 ---
 ## Solution
@@ -56,7 +57,9 @@ The focus of this project is on Kubernetes fundamentals, not production optimiza
 
 ![Architectural Diagram](https://github.com/Botskiss/terraform-aws-iac/blob/main/twl-aws-iac-diagram.png)
 
-
+---
+## Steps Performs
+1. 
 ---
 ## Final Result
 At the end of the project, I have:  
