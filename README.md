@@ -41,16 +41,18 @@ This mirrors how DevOps engineers replace manual server setup with repeatable, s
 
 ---
 ## Solution
-To deploy a containerized backend service on Amazon EKS and let Kubernetes manage it.  
+To use Terraform and Ansible together to fully automate server setup and application deployment.
+
+The solution includes:
+
+* Terraform to provision AWS infrastructure  
+* Two EC2 instances acting as managed nodes  
+* Ansible inventory to define target servers  
+* Ansible playbooks to configure software and services  
+* Automated deployment of a web application using Ansible  
+* Safe re-runs using Ansible’s idempotent design
 <br>
-The solution includes:  
-* A Dockerized application stored in Amazon ECR
-* An Amazon EKS cluster with EC2 worker nodes
-* A Kubernetes Deployment to run and manage Pods
-* A Kubernetes Service (NodePort) to expose the application
-* Health endpoints to verify application status
-<br> 
-The focus of this project is on Kubernetes fundamentals, not production optimizations.
+The focus of this project is on configuration management fundamentals, not advanced orchestration or CI/CD pipelines.  
 ---
 
 ## ✨ Architectural Diagram
@@ -58,7 +60,7 @@ The focus of this project is on Kubernetes fundamentals, not production optimiza
 ![Architectural Diagram](https://github.com/Botskiss/terraform-aws-iac/blob/main/twl-aws-iac-diagram.png)
 
 ---
-## Steps Performs
+## Steps Performed
 1. 
 ---
 ## Final Result
